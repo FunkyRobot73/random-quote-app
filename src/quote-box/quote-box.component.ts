@@ -15,7 +15,7 @@ export class QuoteBoxComponent {
 
     public getQuote() {
         this.quoteService.getRandomQuote().subscribe((data: any) => {
-            this.quote = new Quote(data.id, data.value);
+            this.quote = new Quote(data.value, data.id);
             console.log(this.quote);
         });
     }

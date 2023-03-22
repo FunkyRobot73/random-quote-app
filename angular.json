@@ -25,9 +25,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "../node_modules/font-awesome/css/font-awesome.css",
-              "../node_modules/bootstrap/dist/css/bootstrap.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -96,5 +94,13 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
+
+
+// 
+//"../node_modules/font-awesome/css/font-awesome.css",
+//"../node_modules/bootstrap/dist/css/bootstrap.css"
